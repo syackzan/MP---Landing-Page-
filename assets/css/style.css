@@ -65,10 +65,27 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 70px;
+    width: 900px;
+    height: 200px;  
+  }
+
+  .links {
+      position: relative;
+      left: 900px;
+      width: 100px;
+      height: 200px;
+      background-color: lightblue;
   }
 
   #chelseawp {
       display: block;
       margin-left: auto;
       margin-right: auto;
+  }
+
+  #enter-info {
+      text-align: center;
+      font-family: Cambria, cochin, Georgia, "Times New roman";
+      font-weight: bold;
+      font-size: 18px;
   }
