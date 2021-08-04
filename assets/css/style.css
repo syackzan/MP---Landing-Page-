@@ -1,3 +1,37 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 10px, lightblue;
+    background-color: blue;
+}
+  
+  main {
+    padding-top: 100px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+  }
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -30,4 +64,5 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-top: 70px;
   }
