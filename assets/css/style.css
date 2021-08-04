@@ -66,15 +66,17 @@ input[type=text], select, textarea {
     padding: 20px;
     margin-top: 70px;
     width: 900px;
-    height: 200px;  
+    height: 200px; 
+    position: relative; 
   }
 
-  .links {
-      position: relative;
-      left: 900px;
-      width: 100px;
-      height: 200px;
-      background-color: lightblue;
+  .links { 
+    width: 100px;
+    height: 200px;
+    background-color: lightblue;
+    position: absolute;
+    top: 0;
+    left: 1200px;
   }
 
   #chelseawp {
