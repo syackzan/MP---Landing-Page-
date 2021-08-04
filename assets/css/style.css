@@ -60,9 +60,15 @@ input[type=text], select, textarea {
   }
   
   /* Add a background color and some padding around the form */
-  .container {
+  .contact-form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 70px;
+  }
+
+  #chelseawp {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
   }
