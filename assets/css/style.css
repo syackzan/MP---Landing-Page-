@@ -71,12 +71,12 @@ input[type=text], select, textarea {
   }
 
   .links { 
-    width: 100px;
-    height: 200px;
+    width: 900px;
+    height: 500px;
     background-color: lightblue;
     position: absolute;
     top: 0;
-    left: 1200px;
+    left: 950px;
   }
 
   #chelseawp {
@@ -90,4 +90,9 @@ input[type=text], select, textarea {
       font-family: Cambria, cochin, Georgia, "Times New roman";
       font-weight: bold;
       font-size: 18px;
+  }
+
+  .lnone {
+      display: none;
+      display: inline;
   }
