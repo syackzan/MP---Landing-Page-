@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea Fan Page</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" >
+</head>
+<body>
+    <header>CHELSEA FC</header>
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+    <main>
+        <section>
+          <h2>A Photo of Champion League Champions</h2>
+          <div class="container">
+            <img src="./assets/images/image-1.png" alt="box with number 1"/>
+          </div>
+        </section>
+  
+        <section>
+          <h2>Square 2: Absolute Position</h2>
+          <div class="container absolute-container">
+            <img src="./assets/images/image-1.png" alt="box with number 1"/>
+            <img id="absolute-box-2"src="./assets/images/image-2.png" alt="box with number 2"/>
+            <img src="./assets/images/image-3.png" alt="box with number 3"/>
+          </div>
+        </section>
+      </main>
+</body>
+</html>
