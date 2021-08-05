@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: lightyellow;
+    background-color: black;
 }
 
 header {
@@ -75,12 +75,15 @@ input[type=text], select, textarea {
     height: 100%; 
     float: left;
     width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
   }
 
   #bluebox {
     background-color: blue;
     height: 518px;
-    color: gray;
+    color: black;
     text-align: center;
     padding: 0;
   }
@@ -92,6 +95,9 @@ input[type=text], select, textarea {
     height: 48px;
     padding: 15px;
     margin-top: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
   }
 
   /* Set Chelsea Champions Image */
@@ -129,5 +135,8 @@ input[type=text], select, textarea {
 .photo {
   float: left;
   width: 33%;
-  height: 393px
+  height: 393px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
