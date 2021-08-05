@@ -5,7 +5,7 @@
 body {
     margin: 0;
     background-color: lightyellow;
-  }
+}
 
 header {
     text-align: center;
@@ -21,17 +21,21 @@ header {
     background-color: blue;
 }
   
-  figure {
-    padding-top: 50px;
-  }
-  
-  h1, h2 {
-    text-align: center;
-  }
-  
-  img {
-    display: block;
-  }
+figure {
+  padding-top: 50px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: white;
+}
 
 
 /* Style inputs with type="text", select elements and textareas */
@@ -106,9 +110,23 @@ input[type=text], select, textarea {
   .lnone {
     color: white;
     list-style-type: none;
+    font-size: 25px;
 }
 
-.inline {
-    display: inline-block;
-    margin: 25px;
+.lnone li {
+    display: inline;
+    margin: 75px;
+}
+
+.imagesbox {
+  background-color: black;
+  width: 100%;
+  height: 393px;
+  z-index: 2;
+}
+
+.photo {
+  float: left;
+  width: 33%;
+  height: 393px
 }
