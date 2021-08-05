@@ -79,6 +79,7 @@ input[type=text], select, textarea {
   .box {
     float: left;
     flex: 1 0 400px;
+    justify-content: center;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -91,7 +92,7 @@ input[type=text], select, textarea {
 
   #bluebox {
     background-color: blue;
-    height: 518px;
+    max-height: 200px;
     color: black;
     text-align: center;
     padding: 0;
@@ -112,7 +113,9 @@ input[type=text], select, textarea {
   /* Set Chelsea Champions Image */
   #chelseawp {
       display: block;
-      flex: 0 1;
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
       margin-left: auto;
       margin-right: auto;
   }
@@ -125,6 +128,9 @@ input[type=text], select, textarea {
   }
  
   .lnone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: white;
     list-style-type: none;
     font-size: 25px;
@@ -132,7 +138,8 @@ input[type=text], select, textarea {
 
 .lnone li {
     display: inline;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .imagesbox {
