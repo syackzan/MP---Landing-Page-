@@ -38,6 +38,15 @@ a {
   color: white;
 }
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+}
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -68,13 +77,13 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .box {
+    float: left;
+    flex: 1 0 400px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     margin-top: 70px;
     height: 100%; 
-    float: left;
-    width: 50%;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -103,6 +112,7 @@ input[type=text], select, textarea {
   /* Set Chelsea Champions Image */
   #chelseawp {
       display: block;
+      flex: 0 1;
       margin-left: auto;
       margin-right: auto;
   }
@@ -139,4 +149,10 @@ input[type=text], select, textarea {
   border-style: solid;
   border-width: 2px;
   border-color: black;
+}
+
+@media screen and (max-width: 768px) {
+   main {
+    flex-direction: column;
+  }
 }
