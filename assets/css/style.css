@@ -26,8 +26,15 @@ figure {
   padding-top: 50px;
 }
 
-h1, h2 {
+h1 {
+  position: relative;
+  bottom: 20px;
+  display: inline;
+}
+
+h2, h3 {
   text-align: center;
+  color: white;
 }
 
 img {
@@ -95,10 +102,10 @@ input[type=submit]:hover {
   max-height: 200px;
   color: black;
   text-align: center;
-  padding: 0;
+  padding: 0px;
 }
 
-h3 {
+h4 {
   position: center;
   width: 100%;
   background-color: lightblue;
@@ -135,12 +142,14 @@ h3 {
   color: white;
   list-style-type: none;
   font-size: 25px;
+  margin: 25px 0;
+  padding: 0;
 }
 
 .lnone li {
     display: inline;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0px 70px;
+    width: auto;
 }
 
 .imagesbox {
