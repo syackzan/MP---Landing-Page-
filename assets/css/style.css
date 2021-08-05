@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica; 
 }
 
 body {
@@ -115,7 +116,7 @@ input[type=text], select, textarea {
 
 .lnone li {
     display: inline;
-    margin: 75px;
+    margin: 50px;
 }
 
 .imagesbox {
