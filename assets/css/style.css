@@ -10,16 +10,18 @@ body {
 
 header {
   display: flex;
-  align-items: center;
   padding: 1%;
+  float: left;
+  flex: 1 0 400px;
   background-color: blue;
   color: white;
-  height: 50px;
-  text-align: center;
-  width: 100%;
+  height: 12%;
   position: fixed;
-  top: 0;
-  
+  top: 0px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
 }
   
 figure {
@@ -27,20 +29,20 @@ figure {
 }
 
 h1 {
-  display: inline-block;
-  position: relative;
-  font-size: 50px;
+  display: flex;
   justify-content: center;
-  left: 31%;
 }
 
 nav {
-  position: relative;
-  left: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 nav ul {
   list-style-type: none;
+  display: flex;
+  
 }
 
 nav ul li {
@@ -51,9 +53,9 @@ nav ul li {
 h1::before,
 h1::after {
   content: '\26BD';
-  font-size: 30px;
-  position: relative;
-  bottom: 8px;
+  font-size: 15px;
+  align-content: center;
+  margin: 2px;
 }
 
 h2, h3 {
